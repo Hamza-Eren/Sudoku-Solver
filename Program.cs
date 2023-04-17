@@ -88,9 +88,9 @@ namespace sudokuCozum
                 }
             }
 
-            Console.Write("[");
             for (int i = 0; i < 9; i++)
             {
+                Console.Write("[");
                 for (int j = 0; j < 9; j++)
                 {
                     Console.Write(Global.sudoku[i, j]);
